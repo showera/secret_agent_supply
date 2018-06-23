@@ -1,0 +1,35 @@
+/*Universal Style*/
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+  margin: 0;
+}
+
+/*Header*/
+
+header {
+  /*cross black background*/
+  background-color: black;
+  background-size: cover;
+  width: 100%;
+}
+
+.logo {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  /*center .logo*/
+  margin: auto;
+}
+
+/*height of .logo echo to max(img,p)*/
+.logo img {
+  height: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.logo p {
+  padding: 0.5rem;
+}
