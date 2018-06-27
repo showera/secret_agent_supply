@@ -3,8 +3,9 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
-  color: white;
+  /*color: white;*/
   margin: 0;
+  border: 1px solid;
 }
 
 /*Header*/
@@ -12,8 +13,9 @@ html {
 header {
   /*cross black background*/
   background-color: black;
-  background-size: cover;
+  /*background-size: cover;*/
   width: 100%;
+  border: 1px solid;
 }
 
 .logo {
@@ -22,14 +24,39 @@ header {
   align-items: center;
   /*center .logo*/
   margin: auto;
+  border: 1px solid;
 }
 
-/*height of .logo echo to max(img,p)*/
+  /*height of .logo echo to max(img,p)*/
 .logo img {
   height: 1.5rem;
   padding: 0 0.5rem;
+  border: 1px solid;
 }
 
 .logo p {
   padding: 0.5rem;
+  border: 1px solid;
+}
+
+.content {
+  margin: auto;
+  width: 960px;
+  border: 1px solid;
+}
+
+/*main-banner*/
+
+.main-banner {
+  height: 25rem;
+  width: 100%;
+  background-image: url("../medias/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 1px solid;
+}
+
+.title {
+
 }
