@@ -8,6 +8,13 @@ html {
   border: 1px solid;
 }
 
+  /*Set all content to be 960px and centered*/
+.partial-width {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
 /*Header*/
 
 header {
@@ -19,7 +26,6 @@ header {
 }
 
 .logo {
-  width: 960px;
   display: flex;
   align-items: center;
   /*center .logo*/
@@ -41,7 +47,7 @@ header {
 
 .content {
   margin: auto;
-  width: 960px;
+  width: 100%;
   border: 1px solid;
 }
 
